@@ -7,7 +7,7 @@
   </a>
 </div>
 
-Generate Mipmaps can be a useful tool, but this is primarily used in 3D projects. It is an optimisation technique that creates compressed versions of a texture. It is similar to LOD, even using a similar naming convention where the least compressed texture is called Mip 0, the next more compressed texture is called Mip 1 and so on. They do have some downsides though; like mesh LODs, every Mip of the texture is stored in memory, meaning this is something you don't want to do if you're developing for a device low on RAM. The performance benefit trade-offs are certainly less when compared to LODs and their meshes, which save on vertex/face count.
+Generate Mipmaps can be a useful tool, but this is primarily used in 3D projects. It is an optimisation technique that creates compressed versions of a texture. It is similar to LOD, even using a similar naming convention where the least compressed texture is called Mip 0, the next more compressed texture is called Mip 1 and so on. They do have some downsides though; like mesh LODs, every Mip of the texture is stored in memory, meaning this is something you don't want to do if you're developing for a device low on RAM. Unity has a system for streaming mipmaps to get around this problem, which is worth checking out on the [Unity Docs](https://docs.unity.cn/2021.1/Documentation/Manual/TextureStreaming.html). The performance benefit trade-offs are certainly less when compared to LODs and their meshes, which save on vertex/face count.
 
 <div align="center">
   <a href="Images\Unity Mipmaps.png" target="_blank">
