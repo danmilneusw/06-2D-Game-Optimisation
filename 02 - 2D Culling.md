@@ -101,13 +101,22 @@ It may actually be better to put use a list objects that state what we want to e
 - Without Culling Script: 3.33 ms per frame (300FPS)
 - With Culling Script: 2.7 ms per frame (370FPS)
 
+Without culling:
 <div align="center">
   <a href="Images\Without Culling.png" target="_blank">
     <img src="Images\Without Culling.png" style="height:600px;"/>
   </a>
 </div>
+
+With culling:
 <div align="center">
   <a href="Images\Working Culling.png" target="_blank">
     <img src="Images\Working Culling.png" style="height:600px;"/>
+  </a>
+</div>
+
+<div align="center">
+  <a href="https://github.com/danmilneusw/06-2D-Game-Optimisation/raw/main/Images/Working%20Culling.gif" target="_blank">
+    <img src="https://github.com/danmilneusw/06-2D-Game-Optimisation/raw/main/Images/Working%20Culling.gif" style="height:600px;"/>
   </a>
 </div>
